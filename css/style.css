@@ -1,0 +1,82 @@
+* {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+header {
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+}
+
+#active-header a {
+    background-color: #25228c !important;
+    padding: 6px 15px 5px;
+    color: white !important;
+    border-radius: 25px;
+}
+
+.logo img {
+    max-width: 25%;
+}
+
+.info-institution {
+    background: rgb(42, 38, 190);
+    background: linear-gradient(40deg, rgba(42, 38, 190, 1) 0%, rgba(41, 39, 137, 1) 100%);
+}
+
+.input-border--dark {
+    border: 1px solid #454545;
+}
+
+.input-border--white {
+    border: 2px solid #FFFFFF;
+}
+
+.input-border--blue {
+    border: 2px solid #211CB0;
+    background: linear-gradient(93.51deg, #211CB0 46.89%, #292483 91.38%),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+
+}
+
+.institution-wrapper {
+    height: 50px;
+    width: auto;
+    position: relative;
+    background-color: transparent;
+    margin: 20px;
+}
+#btn-add-request:hover{
+    cursor: pointer;
+}
+.institution-item, .border-outside-right {
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    bottom: -7px;
+    right: -10px;
+}
+
+.border-outside-right {
+    bottom: -7px;
+    left: -10px;
+}
+
+.copp-imgs {
+    background-repeat: repeat;
+    background-image: url("../img/white-logo-copp-small.png");
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.photokartochka {
+    background-image: url("../img/white-logo-copp.png");
+    background-size: 180px;
+    background-position: 0 150px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 50%;
+    right: 0;
+}
