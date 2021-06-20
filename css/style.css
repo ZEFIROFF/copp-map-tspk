@@ -34,7 +34,6 @@ header {
     border: 2px solid #211CB0;
     background: linear-gradient(93.51deg, #211CB0 46.89%, #292483 91.38%),
     linear-gradient(0deg, #FFFFFF, #FFFFFF);
-
 }
 
 .institution-wrapper {
@@ -79,4 +78,18 @@ header {
     left: 50%;
     width: 50%;
     right: 0;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+.background-map{
+    width: 100%;
+    height: 100vh;
+    background-color: #851eff;
+}
+.banner-brand-wsr{
+    background: linear-gradient(93.51deg, #211CB0 46.89%, #292483 91.38%),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    color: white;
+}
+.competence-item-header{
+    background-color: #211CB0 !important;
 }
