@@ -35,9 +35,14 @@
                         <a class="nav-link" href="./college.html">Колледжам/вузам</a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link" href="#">Работодателям</a>
+                        <a class="nav-link" href="#">В разработке...</a>
                     </li>
                 </ul>
+                <form class="d-flex">
+                    <a href="./registration.html">
+                        <img src="./img/user.svg" width="30" alt="user logo">
+                    </a>
+                </form>
             </div>
         </div>
     </nav>
@@ -118,9 +123,9 @@
 
     const renderSubBlock = (id, subTitle) => {
         let infoDiv = createId(3);
-        console.log("шаров еблан")
+        // console.log("шариииии вананана нананана нананаанана" + infoDiv)
         $(`#panelsStayOpen-collapse-${id} > .accordion-body`).append(`
-                        <div class="accordion" id="accordionPanelsStayOpenExample-sub-${id}">
+                        <div class="accordion " id="accordionPanelsStayOpenExample-sub-${id}">
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="panelsStayOpen-heading-${id}${infoDiv}">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
