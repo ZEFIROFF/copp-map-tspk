@@ -15,7 +15,7 @@
 </head>
 <body style="">
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container-lg">
             <a class="navbar-brand" href="#">
                 <div class="logo">ЦОПП|ТСПК
@@ -47,7 +47,6 @@
         <div class="banner-brand-wsr text-center p-3">
             <h2 class="text-uppercase fs-3">Компетенции WSR</h2>
         </div>
-        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Переключатель справа offcanvas</button>
 
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
             <div class="offcanvas-header">
@@ -61,18 +60,41 @@
                         </h3>
                         <div class="title-sub-description">Социально-педагогический колледж</div>
                     </div>
-                    <div class="info-education">
-
+                    <div class="info-education my-5">
+                        <div class="top-rating">
+                            <h4 class="fs-4">Входит в:</h4>
+                            <div class="container-fluid justify-content-between d-flex flex-row">
+                                <div class="top-item-10 top-item rounded-circle text-white text-center fw-bold my-5 ">Топ <br> 10</div>
+                                <div class="top-item-100 top-item top-item-xl rounded-circle  text-white text-center fw-bold">Топ <br> 100</div>
+                                <div class="top-item-50 top-item rounded-circle text-white text-center fw-bold my-5 ">Топ <br> 50</div>
+                            </div>
+                        </div>
+                        <div class="count-wsr">
+                            <div class="col">
+                                <h4 class="fs-4 text-center ">Балл за дем.экзамен</h4>
+                                <div class="count-item text-center text-white rounded-circle mx-auto">4</div>
+                            </div>
+                            <div class="col">
+                                <h4 class="fs-4 text-center ">Кол-во Призеров/Победителей</h4>
+                                <div class="count-item text-center text-white rounded-circle mx-auto">0</div>
+                            </div>
+                            <div class="col">
+                                <h4 class="fs-4 text-center ">Кол-во сертифицированных экспертов</h4>
+                                <div class="count-item text-center text-white rounded-circle mx-auto">4</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="accordion competences overflow-auto" id="accordionPanelsStayOpenExample">
+        <div class="accordion competences"  style="overflow: scroll" id="accordionPanelsStayOpenExample">
+
         </div>
     </aside>
     <div class="col-9 m- p-0">
-        <div class="background-map">
-        </div>
+        <iframe style="position:fixed" src="https://yandex.ru/map-widget/v1/?um=constructor%3A64e8147e4bf8902e574dd79b1125dff3212131f279e2df5f8a18d4d6dfcd154b&amp;source=constructor" width="100%" height="2000px" frameborder="0"></iframe>
+<!--        <div class="background-map">-->
+<!--        </div>-->
     </div>
 </main>
 <script>
@@ -109,6 +131,7 @@
                                 <div id="panelsStayOpen-collapse-${id}${infoDiv}" class="accordion-collapse collapse"
                                      aria-labelledby="panelsStayOpen-heading-${id}${infoDiv}">
                                     <div class="accordion-body">
+                                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Карточка учреждения</button>
                                         <div class="form-check form-switch">
                                             <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
                                             <label class="form-check-label" for="flexSwitchCheckDefault">Что то</label>
